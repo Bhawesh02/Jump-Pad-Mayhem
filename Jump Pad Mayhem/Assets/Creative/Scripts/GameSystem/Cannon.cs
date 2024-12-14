@@ -19,6 +19,7 @@ namespace KWCreative
         [SerializeField] private LineRenderer m_lineRenderer;
         [SerializeField] private Transform m_projectileParent;
         [SerializeField] private Transform m_cannonModel;
+        [SerializeField] private Animator m_cannonAnimator;
         
         private Pool<Projectile> m_projectilePool;
         private List<Projectile> m_projectileFired = new();
@@ -126,6 +127,7 @@ namespace KWCreative
                 yield break;
             }
             WaitForSeconds projectileFireDelay = new (m_cannonData.projectileFireDelay - CANNON_FIRE_ANIM_DELAY);
+            m_cannonAnimator.Play(ANIM_CANON_SHOOT);
             WaitForSeconds projectileAnimationDelay = new (CANNON_FIRE_ANIM_DELAY);
             int projectileSpawnCount = currentFireType == CannonFireTypes.AUTO ? m_cannonData.projectileCount : 1;
             for (int projectileIndex = 0; projectileIndex < projectileSpawnCount; projectileIndex++)

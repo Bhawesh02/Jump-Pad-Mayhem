@@ -9,6 +9,8 @@ namespace KWCreative
     {
         private const string ANIM_JUMP = "Jump";
 
+        [SerializeField] private Animator m_jumpPadAnimator;
+        
         private VariationData m_currentVariationData;
         private bool m_isGameOver;
         
@@ -49,6 +51,7 @@ namespace KWCreative
             {
                 return;
             }
+            m_jumpPadAnimator.Play(ANIM_JUMP);
         }
 
 
