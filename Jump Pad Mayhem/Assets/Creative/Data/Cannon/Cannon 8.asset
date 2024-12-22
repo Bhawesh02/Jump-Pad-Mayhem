@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502f9264d56d456b8f186a1a7a92ebf0, type: 3}
+  m_Name: Cannon 8
+  m_EditorClassIdentifier: 
+  clientId: 
+  m_positionOnSlot: {x: 0, y: 0, z: 0}
+  prefab: {fileID: 7751190886697496752, guid: bfb88b3c4b5324140b3d4b7e97858bd2, type: 3}
+  maxCannonRotationAngel: 22.72
+  cannonRotationSpeed: 4
+  projectileCount: 5
+  projectileFireForce: 64
+  projectileFireDelay: 1.15
