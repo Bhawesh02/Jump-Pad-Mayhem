@@ -96,13 +96,13 @@ The **Factory** pattern is used to create different types of game elements (such
    [![Video](https://github.com/Bhawesh02/Jump-Pad-Mayhem/blob/main/GIFS/LevelCreator.gif)](https://youtu.be/FOFXl6VMl-A)
    <br>
 2. Trajectory Simulation Testing
-   <br>
-   [![Video](https://github.com/Bhawesh02/Jump-Pad-Mayhem/blob/main/GIFS/Trajectory%20Line.gif)](https://youtu.be/uk4Y_k5YZRk)
-   <br>
-3. Gameplay
+<br>
+[![Video](https://github.com/Bhawesh02/Jump-Pad-Mayhem/blob/main/GIFS/Trajectory%20Line.gif)](https://youtu.be/uk4Y_k5YZRk)
+<br>
+<!-- 3. Gameplay
    <br>
    [![Video](https://github.com/Bhawesh02/Jump-Pad-Mayhem/blob/main/GIFS/Gameplay.gif)](https://youtube.com/shorts/zajEYe4CAg0)
-   <br>
+   <br> -->
 
 ---
 
